@@ -38,6 +38,14 @@ public class LifestealCoreAPI {
 		return null;
 	}
 	
+	public String getEffectHeartItemParticleEffects(ItemStack item) {
+		return null;
+	}
+	
+	public int getEffectHeartItemParticleEffectsAmount(ItemStack item) {
+		return 0;
+	}
+	
 	public Boolean isBeaconBlock(Block b) {
 		return null;
 	}
@@ -94,10 +102,20 @@ public class LifestealCoreAPI {
 		return null;
 	}
 	
+	public String getHeartItemParticleEffects(ItemStack item) {
+		return null;
+	}
+	
+	public int getHeartItemParticleEffectsAmount(ItemStack item) {
+		return 0;
+	}
+	
 	public void addPlayerHearts(UUID uuid, int amount) {
+		
 	}
 	
 	public void removePlayerHearts(UUID uuid, int amount, Boolean silent) {
+		
 	}
 	
 	public void setPlayerHearts(UUID uuid, int amount) {
@@ -108,6 +126,7 @@ public class LifestealCoreAPI {
 	}
 	
 	public void setPlayerEliminated(UUID uuid, Boolean eliminated, Boolean silent) {
+
 	}
 	
 	public Boolean isPlayerEliminated(UUID uuid) {
@@ -115,6 +134,7 @@ public class LifestealCoreAPI {
 	}
 	
 	public void setPlayerBantime(UUID uuid, int seconds) {
+
 	}
 	
 	public int getPlayerBantime(UUID uuid) {
