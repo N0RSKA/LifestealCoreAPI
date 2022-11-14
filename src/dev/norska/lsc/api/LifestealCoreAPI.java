@@ -18,6 +18,15 @@ public class LifestealCoreAPI {
 		this.instance = instance;
 	}
 	
+	public Boolean isBanningEnabled() {
+		return null;
+	}
+	
+	public int getMinimumHeartsWhenBanningIsDisabled() {
+		return 0;
+	}
+	
+	
 	public Boolean isEffectHeartItem(ItemStack item) {
 		return null;
 	}
