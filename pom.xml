@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>dev.norska.lsc.api</groupId>
   <artifactId>LifestealCoreAPI</artifactId>
-  <version>6b</version>
+  <version>7</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -30,13 +30,13 @@
     <dependency>
         <groupId>org.spigotmc</groupId>
         <artifactId>spigot-api</artifactId>
-        <version>1.19.2-R0.1-SNAPSHOT</version>
+        <version>1.19.3-R0.1-SNAPSHOT</version>
         <scope>provided</scope>
     </dependency>	
 	<dependency>
 		<groupId>org.projectlombok</groupId>
 		<artifactId>lombok</artifactId>
-		<version>1.18.22</version>
+		<version>1.18.24</version>
 		<scope>provided</scope>
 	</dependency>
 	</dependencies>

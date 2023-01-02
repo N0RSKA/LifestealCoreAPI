@@ -23,9 +23,8 @@ public class LifestealCoreAPI {
 	}
 	
 	public int getMinimumHeartsWhenBanningIsDisabled() {
-		return 0;
+		return 0;	
 	}
-	
 	
 	public Boolean isEffectHeartItem(ItemStack item) {
 		return null;
@@ -60,7 +59,7 @@ public class LifestealCoreAPI {
 	}
 	
 	public void decreaseBeaconBlockDurability(Block b, Player p, int amount) {
-
+		
 	}
 	
 	public Boolean isBeaconItem(ItemStack item) {
@@ -120,14 +119,23 @@ public class LifestealCoreAPI {
 	}
 	
 	public void addPlayerHearts(UUID uuid, int amount) {
-		
+
+	}
+	
+	public int getPlayerMaxHearts(UUID uuid) {
+		return 0;
+	}
+	
+	public void setPlayerMaxHearts(UUID uuid, int amount) {
+
 	}
 	
 	public void removePlayerHearts(UUID uuid, int amount, Boolean silent) {
-		
+
 	}
 	
 	public void setPlayerHearts(UUID uuid, int amount) {
+
 	}
 	
 	public int getPlayerHearts(UUID uuid) {
