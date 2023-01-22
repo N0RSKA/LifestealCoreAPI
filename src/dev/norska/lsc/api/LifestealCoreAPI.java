@@ -18,6 +18,10 @@ public class LifestealCoreAPI {
 		this.instance = instance;
 	}
 	
+	public void giveHeartItemToPlayer(Player player, String tier, int amount) {
+		
+	}
+	
 	public Boolean isBanningEnabled() {
 		return null;
 	}

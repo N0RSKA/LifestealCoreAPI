@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>dev.norska.lsc.api</groupId>
   <artifactId>LifestealCoreAPI</artifactId>
-  <version>7</version>
+  <version>7b</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
